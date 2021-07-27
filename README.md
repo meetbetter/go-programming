@@ -6,7 +6,6 @@ Golang知识点，从使用到源码。
 
 目录结构:
 
-- 00_go-install: 不同平台Golang环境搭建
 - 01_basics: Golang语法基础
 - 02_utils: 开发中封装的常用小工具
 - 03_examples: Go常见三方库的示例代码
