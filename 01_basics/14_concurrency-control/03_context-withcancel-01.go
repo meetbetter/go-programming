@@ -15,6 +15,8 @@ func main() {
 
 	cancel()
 
+	time.Sleep(10 * time.Second)
+
 	fmt.Println("main return")
 }
 

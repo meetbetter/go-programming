@@ -11,8 +11,11 @@ func main() {
 
 	go process1(ctx)
 
-	time.Sleep(10 * time.Second)
+	time.Sleep(5 * time.Second)
+
 	cancel()
+
+	time.Sleep(5 * time.Second)
 
 	fmt.Println("main return")
 }
